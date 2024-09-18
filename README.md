@@ -40,6 +40,12 @@ To run this project, you need to have the following installed on your machine:
 
 ## Testing the API
 
-    npm install -g newman
+1. Installing newman
 
-    newman run ./Store-Webapi.postman.collection.json
+   ```bash
+   npm install -g newman
+
+2. Running the test in the terminal
+
+   ```bash
+   newman run ./Store-Webapi.postman_collection.json
