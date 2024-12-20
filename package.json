@@ -7,8 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
-    "build": "tsc"
+    "start": "src/node_modules/.bin/ts-node-dev src/index.ts",
+    "build": "src/node_modules/.bin/tsc"
   },
   "keywords": [],
   "author": "",
